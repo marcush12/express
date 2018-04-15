@@ -14,5 +14,4 @@ if ($rs->num_rows==0) {
     $st->bind_param("s", $_SESSION["user"]);
     $st->execute();
 }
-
-
+echo "<script>window.location='menu.php';</script>";
