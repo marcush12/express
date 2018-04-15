@@ -36,7 +36,7 @@
                 echo '<h4>Total de R$'.$total.'</h4>';
                 ?>
     <form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
-        <input type="hidden" name="business" value="marcos012santos-facilitator@gmail.com">
+        <input type="hidden" name="business" value="-facilitator@gmail.com">
         <input type="hidden" name="cmd" value="_xclick"/>
         <input type="hidden" name="item_name" value="Order Express Menu"/>
         <input type="hidden" name="amount" value="<?php echo $total; ?>"/>
